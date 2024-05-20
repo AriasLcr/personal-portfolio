@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-expletus: 'Expletus Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-expletus);
+}
 @layer {
   html,
   body {
